@@ -11,4 +11,5 @@ int main(int argc, char *argv[])
   printf ("UID effectif : %u\n", euid);
   printf ("GID réel     : %u\n", gid);
   printf ("GID effectif : %u\n", egid);
+  return 0;
 }
